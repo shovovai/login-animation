@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Animation</title>
+
+    <!-- coustum css link -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body style="
+    background: url('assets/image/background.jpg') no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;">
+
+
+    <!-- header -->
+
+    <header>
+        <h2 class="logo">LOGO</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <button class="btn-login-poppup">Login</button>
+        </nav>
+    </header>
+
+
+    <div class="wrapper">
+
+        <span class="icon-close"></span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="emali" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remermber-forget">
+                    <label><input type="checkbox">
+                    Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+
+                <div class="Login-resigter">
+                    <p>Don't have an account
+                        <a href="#" class="resigter-link">
+                            Register Now
+                        </a></p>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="form-box resigter">
+            <h2>Ragistation</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>   
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="emali" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remermber-forget">
+                    <label><input type="checkbox">
+                    Agree to the terms</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+
+                <div class="Login-resigter">
+                    <p>Alrady have an account
+                        <a href="#" class="login-link">
+                            Login Now
+                        </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- coustum js link -->
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
